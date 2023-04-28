@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+
+.navSeparator {
+    /* border: 2px solid green; */
+    height: 58px;
+}
+
+.bg {
+    height: 100vh;
+    background: url(/IMG/restrurant/bg2.jpg)no-repeat center;
+    filter: blur(4px);
+    position: relative;
+    z-index: -1;
+}
+
+.siteContainer {
+    height: 20vh;
+    height: 80vh;
+    float: right;
+    margin: 10vh 0;
+    background: url(/IMG/restrurant/ElectricAggravatingFiddlercrab.gif)repeat center;
+}
+
+.restContent{
+    height: 80%;
+    width: 85%;
+    float: right;
+    position: relative;
+    top: 10%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.heading{
+    color: white;
+    width: 40%;
+    font-size: 35px;
+    font-family: 'Rajdhani', sans-serif;
+    background: gray;
+}
+.description{
+    color: white;
+    width: 60%;
+    font-size: 12px;
+    font-family: monospace;
+    background: #003658;
+}
+.restTitle{
+    margin-left: 10vh;
+    margin-top: 25px;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.visitSiteButton{
+    margin-top: 8vh;
+    margin-left: 10vh;
+    width: 18vh;
+    height: 7vh;
+    border-radius: 20px;
+    border: none;
+    background: #f4b63f;
+}
+.visitSiteButton a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.arrow{
+    font-size: 20px;
+}
+
+.restTitle span{
+    font-weight: bold;
+}
+
+

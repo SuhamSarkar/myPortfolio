@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+
+
+body {
+    background: url(/IMG/certificates/bg.gif);
+    height: 200vh;
+}
+
+.certificateSeparator {
+    /* border: 2px solid red; */
+    height: 10vh;
+}
+
+
+
+
+.frontendCertificate-grandParent {
+    /* border: 2px solid blue; */
+    height: auto;
+    width: auto;
+}
+
+.frontendCertificate-grandParent h2 {
+    /* border: 2px solid white; */
+    background: #2f2f2f;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+
+
+}
+
+
+
+
+.frontendParent {
+    /* border: 2px solid white; */
+    width: 80%;
+    margin: 20px auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.frontendChild {
+    /* border: 2px solid blue; */
+    width: auto;
+    margin: 20px auto;
+}
+
+.frontendDes {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+
+.frontendDes p {
+    color: white;
+    /* border: 2px solid red; */
+    text-align: justify;
+    background: #2f2f2f;
+    padding: 20px;
+}
+
+.certificateImg {
+    height: 80vh;
+    width: 80vh;
+}
+
+.certificateImg iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.frontendChild span {
+    /* border: 2px solid blue; */
+    width: fit-content;
+    margin: 20px auto;
+}
+
+/* end of the Frontend Certificate Content */
+
+
+
+/* for the IBM Certificate Content */
+
+
+
+.ibmCertificate-grandParent {
+    /* border: 2px solid red; */
+    width: auto;
+    margin-top: 20vh;
+}
+
+.ibmCertificate-grandParent h2 {
+    /* border: 2px solid white; */
+    background: #2f2f2f;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+
+.ibmParent {
+    /* border: 2px solid white; */
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ibmChild {
+    /* border: 2px solid blue; */
+    color: white;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.ibmDes {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+}
+
+
+.ibmDes p {
+    /* border: 2px solid yellow; */
+    padding: 20px;
+    text-align: justify;
+    background: #2f2f2f;
+    /* margin: 20px; */
+}
+
+.ibmCertificateImg {
+    height: 80vh;
+    width: 80vh;
+    margin: 30px auto;
+}
+
+
+.ibmChild iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.courseDes {
+    border: 1px solid;
+    /* position: relative; */
+    display: block;
+    height: auto;
+    margin: 5px 0 50px 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+    padding: 20px;
+}
+
+.ibmChild span {
+    width: fit-content;
+    margin: 30px auto;
+}
+
+
+
+
+
+
+
+/* Media query for responsiveness
+/* ******for large devices */
+@media (min-width:1200px) {}
+
+
+
+/* *********Medium devices */
+@media (min-width:992px) and (max-width: 1199px) {
+    .frontendDes {
+        width: 70%;
+    }
+
+    .ibmDes {
+        width: 70%;
+    }
+
+    .footerChild p {
+        margin: 0px auto;
+        float: none;
+    }
+
+    .footerParent {
+        margin: 0 auto;
+    }
+}
+
+/* *********Small devices only */
+@media (min-width:768px) and (max-width:991px) {
+    .frontendDes {
+        width: 80%;
+    }
+
+    .ibmDes {
+        width: 70%;
+    }
+
+    .footerChild p {
+        margin: 0px auto;
+        float: none;
+    }
+
+    .footerParent {
+        margin: 0 auto;
+    }
+}
+
+/* *******extra small devices */
+@media (max-width:598px) {
+    .frontendDes {
+        width: 60%;
+    }
+
+    .ibmDes {
+        width: 80%;
+    }
+
+    .footerChild p {
+        margin: 0px auto;
+        float: none;
+    }
+
+    .footerParent {
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (min-width:600px) and (max-width:767px) {
+    .frontendDes {
+        width: 80%;
+    }
+
+    .ibmDes {
+        width: 80%;
+    }
+
+    .footerChild p {
+        margin: 0px auto;
+        float: none;
+    }
+
+    .footerParent {
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (min-width:453px) and (max-width:600px) {
+    .frontendDes {
+        width: 80%;
+    }
+
+    .ibmDes {
+        width: 90%;
+    }
+
+    .footerChild p {
+        margin: 0px auto;
+        float: none;
+    }
+
+    .footerParent {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+@media (min-width:300px) and (max-width:452px) {
+    .frontendDes {
+        width: 100%;
+    }
+
+    .ibmDes {
+        width: 100%;
+    }
+
+    .footerChild p {
+        margin: 0px auto;
+        float: none;
+    }
+
+    .footerParent {
+        margin: 0 auto;
+    }
+}

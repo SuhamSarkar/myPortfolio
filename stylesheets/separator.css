@@ -1,0 +1,116 @@
+.separator2 {
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: auto;
+    height: 60vh;
+    /* margin: 115px; */
+    border-bottom: 1px solid gray;
+    border-bottom-style: double;
+    /* border-bottom-color: gray; */
+}
+
+
+.nextButtons {
+    /* border: 2px solid red; */
+    /* float: right; */
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.nextButtons button {
+    background: #04AA6D;
+    margin-top: 20px;
+    /* width: 100px;
+    height: 55px; */
+    padding: 5px 15px 12px 15px;
+    border-radius: 10px;
+    /* border-color: rgb(76, 176, 76); */
+    border: none;
+
+}
+
+.nextButtons button a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    /* font-weight: bold; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nextButtons span{
+    font-size: 30px;
+    /* border: 2px solid black; */
+    padding: 0px 5px 0px 10px;
+    position: relative;
+    top: 2px;
+}
+
+.nextButtons button:hover{
+    background: rgb(60, 58, 58);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for responsiveness
+/* ******for large devices */
+@media (min-width:1200px) {}
+
+
+
+
+
+/* *********Medium devices */
+@media (min-width:992px) and (max-width: 1199px) {}
+
+/* *********Small devices only */
+@media (min-width:801px) and (max-width:991px) {
+
+    .separator2 {
+        height: 70vh;
+    }
+}
+
+/* *******extra small devices */
+@media (max-width:800px) {
+
+    .separator2 {
+        height: 120vh;
+    }
+}
+
+@media (min-width:800px) and (max-width:800px) {}
+
+
+
+
+@media (min-width:200px) and (max-width:621px) {
+
+    .separator2 {
+        height: 125vh;
+    }
+    .nextButtons button {
+        margin-top: 20px;
+        padding: 1px 10px 12px 15px;
+    }
+    .nextButtons span{
+        font-size: 35px;
+        top: 0px;
+    }
+}

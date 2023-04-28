@@ -1,0 +1,74 @@
+
+
+
+
+.footer-grandParent{
+    /* border: 2px solid red; */
+    height: auto;
+    background: #2f2f2f;
+}
+
+
+.footerParent{
+    /* border: 2px solid white; */
+    display: flex;
+    height: auto;
+    width: 95%;
+    margin: 40px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerChild{
+    /* border: 2px solid blue; */
+    /* width: 45%; */
+    margin:20px auto;
+}
+.footerChild ul{
+    margin: 20px;
+    /* width: 30vh; */
+}
+.footerChild ul li{
+    list-style: none;
+    padding: 10px;
+}
+.footerChild ul li a{
+    text-decoration: none;
+    /* color: ; */
+}
+
+.footerChild p{
+    color: white;
+    width:90%;
+    margin: 25px auto;
+    float: right;
+    text-align: center;
+}
+.footerHorizontal{
+    width: 50%;
+    margin: auto;
+}
+.copyRight{
+    /* border: 2px solid red; */
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+.copyRight p{
+    padding-bottom: 10px;
+}
+.active{
+    color: red;
+}
+/* .active:active{
+    color: red;
+} */
+
+
+.footerContentLists{
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    border-left: none;
+    border-top: none;
+}

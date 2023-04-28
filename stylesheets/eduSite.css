@@ -1,0 +1,698 @@
+/* * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;} */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&family=Roboto+Mono:wght@300&display=swap');
+
+.webContent {
+    /* border: 2px solid rgb(244, 244, 244); */
+    border-image: linear-gradient(#ffffff, #a4a5b7) 20;
+    border-width: 2px;
+    border-style: solid;
+    height: 8vh;
+    border-top: none;
+    background: #a4a5b7;
+}
+
+.awardShape {
+    /* height: 100px; */
+    position: relative;
+    /* background-color: black;
+    width: 15vh;
+    top: 20px;
+    left: 20px; */
+}
+
+.awardShape:before {
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 140vh;
+    top: -20px;
+    left: -200px;
+    transform: skew(25deg);
+    z-index: -1;
+    border-bottom-right-radius: 100px;
+}
+
+
+
+
+.eduLogo {
+    color: white;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 20vh;
+    left: 34vh;
+    font-size: 100px;
+}
+
+.eduSite {
+    color: white;
+    /* border: 2px solid white; */
+    /* display: block; */
+    width: 25%;
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    top: 26vh;
+    left: 15vh;
+    bottom: 0;
+    right: 0;
+}
+
+.eduClick {
+    width: 100px;
+    height: 45px;
+}
+
+.sourceCode {
+    width: 100px;
+    height: 45px;
+}
+
+.eduClick,
+.sourceCode {
+    position: relative;
+    top: 30vh;
+    left: 23vh;
+    background: black;
+    border: none;
+    color: white;
+    margin: 20px 30px 0 10px;
+
+}
+
+.eduClick::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to right, red, blue);
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.sourceCode::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to left, yellow, blue);
+    z-index: -1;
+    filter: blur(8px);
+}
+
+.eduClick a,
+.sourceCode a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.desTitle {
+    /* border: 2px solid red; */
+    display: block;
+    position: relative;
+    width: 90vh;
+    right: 5vh;
+    float: right;
+    height: 40vh;
+    z-index: -2;
+    box-shadow: 0 0 10px 5px #777c62;
+}
+
+.eduText {
+    position: absolute;
+    top: 175vh;
+    left: 5%;
+    text-align: justify;
+    /* height: 15vh; */
+    /* border: 2px solid red; */
+    /* display: inline-block; */
+    /* text-align: center; */
+    width: 40%;
+
+}
+
+.eduText p {
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+.forImg img {
+    height: 40vh;
+}
+
+.forImg2 img {
+    height: 40vh;
+}
+
+.forImg3 img {
+    height: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for responsiveness
+/* ******for large devices */
+@media (min-width:1200px) {}
+
+
+
+
+
+/* *********Medium devices */
+@media (min-width:992px) and (max-width: 1199px) {
+    .webContent {
+        border-image: none;
+        border-width: 0;
+        border-style: none;
+        height: 0;
+        border-top: none;
+    }
+
+    .awardShape {
+        position: relative;
+        background: black;
+        top: 0;
+        height: 120vh;
+        width: 40%;
+        left: 0;
+        z-index: 1;
+    }
+
+    .awardShape:before {
+        content: '';
+        background-color: black;
+        position: absolute;
+        height: 0;
+        width: 0;
+        transform: skew(0deg);
+        z-index: 0;
+        border-bottom-right-radius: 0px;
+    }
+
+
+
+
+    .eduLogo {
+        top: 25vh;
+        left: 15vh;
+    }
+
+    .eduSite {
+        width: 10%;
+        top: 30vh;
+        left: 100px;
+
+    }
+
+    .eduClick {
+        width: 100px;
+        height: 45px;
+    }
+
+    .sourceCode {
+        width: 100px;
+        height: 45px;
+    }
+
+    .eduClick,
+    .sourceCode {
+        top: 35vh;
+        left: 10vh;
+
+    }
+
+    .sourceCode::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(to left, yellow, blue);
+        z-index: -1;
+        filter: blur(8px);
+    }
+
+    .desTitle {
+        display: block;
+        position: absolute;
+        width: 75vh;
+        top: 120vh;
+        right: 5vh;
+        float: right;
+        height: 40vh;
+        z-index: 0;
+        box-shadow: 0 0 10px 2px #777c62;
+    }
+
+    .eduText {
+        position: absolute;
+        width: 40vh;
+        top: 180vh;
+        left: 5%;
+        z-index: 1;
+    }
+
+
+
+
+}
+
+/* *********Small devices only */
+@media (min-width:801px) and (max-width:991px) {
+    .webContent {
+        border-image: none;
+        border-width: 0;
+        border-style: none;
+        height: 0;
+        border-top: none;
+    }
+
+    .awardShape {
+        position: relative;
+        background: black;
+        top: 0;
+        height: 120vh;
+        width: 40%;
+        left: 0;
+        z-index: 0;
+    }
+
+    .awardShape:before {
+        content: '';
+        background-color: black;
+        position: absolute;
+        height: 0;
+        width: 0;
+        transform: skew(0deg);
+        z-index: 0;
+        border-bottom-right-radius: 0px;
+    }
+
+
+
+
+    .eduLogo {
+        top: 25vh;
+        left: 10vh;
+    }
+
+    .eduSite {
+        width: 10%;
+        top: 30vh;
+        left: 60px;
+
+    }
+
+    .eduClick {
+        width: 100px;
+        height: 45px;
+    }
+
+    .sourceCode {
+        width: 100px;
+        height: 45px;
+    }
+
+    .eduClick,
+    .sourceCode {
+        top: 35vh;
+        left: 5vh;
+
+    }
+
+    .sourceCode::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(to left, yellow, blue);
+        z-index: -1;
+        filter: blur(8px);
+    }
+
+    .desTitle {
+        /* border: 2px solid red; */
+        display: block;
+        position: absolute;
+        width: 60vh;
+        right: 5vh;
+        top: 100vh;
+        float: right;
+        height: 40vh;
+        z-index: -1;
+        box-shadow: 0 0 10px 2px #777c62;
+    }
+
+    .eduText {
+        position: absolute;
+        top: 150vh;
+        left: 4%;
+        width: 35vh;
+    }
+
+}
+
+/* *******extra small devices */
+@media (max-width:800px) {
+    .webContent {
+        border-image: none;
+        border-width: 0;
+        border-style: none;
+        height: 0;
+        border-top: none;
+    }
+
+    .awardShape {
+        position: relative;
+        background: black;
+        /* top: 0; */
+        width: 100%;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        z-index: 0;
+    }
+
+    .awardShape:before {
+        content: '';
+        background-color: black;
+        position: absolute;
+        height: 0;
+        width: 0;
+        transform: skew(0deg);
+        z-index: 0;
+        border-bottom-right-radius: 0px;
+    }
+
+
+
+
+    .eduLogo {
+        top: 25vh;
+        left: 45%;
+        font-size: 90px;
+    }
+
+    .eduSite {
+        width: 10%;
+        top: 30vh;
+        left: 40%;
+        font-size: 2.2em;
+    }
+
+    .eduClick {
+        width: 100px;
+        height: 45px;
+    }
+
+    .sourceCode {
+        width: 100px;
+        height: 45px;
+    }
+
+    .eduClick,
+    .sourceCode {
+        top: 35vh;
+        left: 35%;
+
+    }
+
+    .sourceCode::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(to left, yellow, blue);
+        z-index: -1;
+        filter: blur(8px);
+    }
+
+    .desTitle {
+        /* border: 2px solid red; */
+        display: block;
+        position: relative;
+        width: 75vh;
+        right: 5vh;
+        top: 20vh;
+        float: right;
+        height: 40vh;
+        z-index: -2;
+        box-shadow: 0 0 10px 2px #777c62;
+    }
+
+    .eduText {
+        position: absolute;
+        top: 125vh;
+        left: 0%;
+        text-align: justify;
+        /* height: 15vh; */
+        /* border: 2px solid red; */
+        /* display: inline-block; */
+        /* text-align: center; */
+        width: auto;
+        padding: 50px;
+    }
+
+
+
+}
+
+@media (min-width:760px) and (max-width:800px) {
+    .eduText {
+        position: absolute;
+        top: 140vh;
+        left: 0%;
+        text-align: justify;
+        width: auto;
+    }
+}
+
+
+
+
+@media (min-width:200px) and (max-width:621px) {
+    .webContent {
+        border-image: none;
+        border-width: 2 0;
+        border-style: none;
+        height: 0;
+        border-top: none;
+    }
+
+    .awardShape {
+        position: relative;
+        background: black;
+        top: 0;
+        height: 90vh;
+        width: 100%;
+        left: 0;
+        z-index: 0;
+    }
+
+    .awardShape:before {
+        content: '';
+        background-color: black;
+        position: absolute;
+        height: 0;
+        width: 0;
+        transform: skew(0deg);
+        z-index: 0;
+        border-bottom-right-radius: 0px;
+    }
+
+
+
+
+    .eduLogo {
+        top: 10vh;
+        font-size: 80px;
+        width: auto;
+        margin: auto;
+    }
+
+    .eduSite {
+        margin: auto;
+        width: 30vh;
+        top: 15vh;
+        left: 1vh;
+        font-size: 2.2em;
+    }
+
+    .eduClick {
+        width: 100px;
+        height: 45px;
+    }
+
+    .sourceCode {
+        width: 100px;
+        height: 45px;
+    }
+
+    .eduClick,
+    .sourceCode {
+        top: 20vh;
+        left: 20%;
+
+    }
+
+    .sourceCode::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: linear-gradient(to left, yellow, blue);
+        z-index: -1;
+        filter: blur(8px);
+    }
+
+    .desTitle {
+        /* border: 2px solid red; */
+        display: block;
+        position: relative;
+        width: 90%;
+        right: 3vh;
+        top: 0vh;
+        float: right;
+        height: 40vh;
+        z-index: -1;
+        box-shadow: 0 0 11px 10px #777c62;
+    }
+
+    .eduText {
+        position: absolute;
+        top: 110vh;
+        left: 0%;
+        text-align: justify;
+        width: auto;
+        padding: 25px;
+    }
+
+}

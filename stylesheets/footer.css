@@ -1,0 +1,346 @@
+.separator3 {
+    /* border: 2px solid red; */
+    height: 20vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    /* border: 2px solid red; */
+    height: 58vh;
+    background: #252525;
+    color: white;
+    /* width: 100%; */
+}
+
+/* .footerContent{
+    border: 2px solid yellow;
+} */
+.footerContent p a {
+    /* border: 2px solid white; */
+    text-decoration: none;
+    color: white;
+    width: auto;
+}
+
+.address {
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    width: 25%;
+    left: 70%;
+    top: 140vh;
+}
+
+.address p {
+    padding: 20px;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.copyright {
+    border: 2px solid black;
+    display: flex;
+    height: 16vh;
+    width: 80%;
+    margin: auto;
+    /* text-align: center; */
+    align-items: flex-end;
+    justify-content: center;
+    border-top-color: #646464;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    margin-top: 50px;
+
+}
+
+.copyright a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.copyright a span {
+    font-size: 20px;
+}
+
+.addressText {
+    color: white;
+}
+
+.home,
+.about,
+.achievement {
+    /* border: 2px solid blue; */
+    width: 35%;
+    padding: 60px 0 0 100px;
+}
+
+.home a span:hover, .about a span:hover, .achievement a span:hover{
+    background: gray;
+}
+
+.active11{
+    background: gray;
+}
+
+.active:active{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for responsiveness
+/* ******for large devices */
+@media (min-width:1200px) {
+
+    .footer {
+        height: 58vh;
+    }
+    .address {
+        top: 170vh;
+        width: 35%;
+        left: 60%;
+    }
+
+    .address p {
+        padding: 20px;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+    .copyright {
+        height: 16vh;
+
+    }
+
+    .copyright a {
+        font-size: 14px;
+    }
+
+
+
+    .home,
+    .about,
+    .achievement {
+        /* border: 2px solid blue; */
+        width: 20%;
+        padding: 60px 0 0 100px;
+    }
+
+
+}
+
+
+
+
+
+/* *********Medium devices */
+@media (min-width:992px) and (max-width: 1199px) {
+
+    .footer {
+        height: 58vh;
+    }
+
+    .address {
+        width: 35%;
+        top: 170vh;
+        left: 60%;
+    }
+
+    .address p {
+        padding: 20px;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+
+    .copyright {
+        height: 16vh;
+
+    }
+
+    .copyright a {
+        font-size: 14px;
+    }
+
+
+    .home,
+    .about,
+    .achievement {
+        /* border: 2px solid blue; */
+        /* width: 20%; */
+        padding: 60px 0 0 100px;
+    }
+
+
+
+
+}
+
+/* *********Small devices only */
+@media (min-width:801px) and (max-width:991px) {
+
+    .footer {
+        height: 58vh;
+    }
+    .address {
+        width: 35%;
+        left: 60%;
+        top: 170vh;
+    }
+
+    .address p {
+        padding: 20px;
+        font-size: 13px;
+        letter-spacing: 5px;
+    }
+
+    .copyright {
+        height: 16vh;
+
+    }
+
+    .copyright a {
+        font-size: 14px;
+    }
+    .home,
+    .about,
+    .achievement {
+        /* border: 2px solid blue; */
+        /* width: 20%; */
+        padding: 60px 0 0 100px;
+    }
+
+
+}
+
+/* *******extra small devices */
+@media (max-width:800px) {
+
+    .footer {
+        /* border: 2px solid red; */
+        height: 58vh;
+    }
+    .address {
+        width: 45%;
+        left: 55%;
+        top:225vh;
+    }
+
+    .address p {
+        padding: 20px;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+
+    .copyright {
+        height: 16vh;
+
+    }
+
+    .copyright a {
+        font-size: 14px;
+    }
+
+    .home,
+    .about,
+    .achievement {
+        /* border: 2px solid blue; */
+        /* width: 20%; */
+        padding: 60px 0 0 100px;
+    }
+
+
+}
+
+@media (min-width:800px) and (max-width:800px) {
+
+    .footer {
+        height: 58vh;
+    }
+
+    .address {
+        width: 25%;
+        left: 70%;
+        top: 145vh;
+    }
+
+    .address p {
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    .copyright {
+        height: 16vh;
+
+    }
+
+    .home,
+    .about,
+    .achievement {
+        /* border: 2px solid blue; */
+        /* width: 20%; */
+        padding: 60px 0 0 100px;
+    }
+
+
+}
+
+
+
+
+@media (min-width:200px) and (max-width:621px) {
+    .separator3 {
+        /* border: 2px solid red; */
+        height: 20vh;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        /* border: 2px solid red; */
+        height: 50vh;
+        background: #252525;
+        color: white;
+    }
+
+    .address {
+        width: 50%;
+        left: 50%;
+        top: 235vh;
+    }
+
+    .address p {
+        font-size: 10px;
+    }
+
+    .copyright {
+        height: 10vh;
+
+    }
+
+    .home,
+    .about,
+    .achievement {
+        padding: 60px 0 0 30px;
+        width: 40%;
+    }
+
+
+}
